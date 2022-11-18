@@ -1,0 +1,8 @@
+prefix=/home/jobs/AME547Final/final_ws/devel
+
+Name: urdf01rviz
+Description: Description of urdf01rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
