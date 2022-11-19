@@ -1,0 +1,8 @@
+prefix=/home/jobs/AME547Final/AME547Project/ur10_rg2_ws/install
+
+Name: ur10_rg2_moveit_config
+Description: Description of ur10_rg2_moveit_config
+Version: 0.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
