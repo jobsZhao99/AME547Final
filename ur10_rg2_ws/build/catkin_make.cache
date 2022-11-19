@@ -1,2 +1,0 @@
-robot_descriptions:ur10_rg2_moveit_config:ur_control:ur_modern_driver
--DCATKIN_DEVEL_PREFIX=/home/jobs/AME547Final/AME547Project/ur10_rg2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jobs/AME547Final/AME547Project/ur10_rg2_ws/install -G Unix Makefiles

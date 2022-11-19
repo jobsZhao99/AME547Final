@@ -1,8 +1,0 @@
-prefix=/home/jobs/AME547Final/AME547Project/ur10_rg2_ws/install
-
-Name: robot_descriptions
-Description: Description of robot_descriptions
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
