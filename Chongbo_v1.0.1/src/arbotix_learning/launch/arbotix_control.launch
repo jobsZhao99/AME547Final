@@ -1,0 +1,17 @@
+<launch>
+      <!-- <include file="$(find urdflearning)/launch/xacro_rivz.launch" /> -->
+
+    <!-- 设置参数 -->
+    <param name="robot_description" textfile="$(find urdflearning)/urdf/demo01.urdf" />
+
+    <!-- 启动 rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find arbotix_learning)/config/arbotix_control.rviz" />
+    <!-- 启动机器人状态和关节状态发布节点 -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+     <node name="arbotix" pkg="arbotix_python" type="arbotix_driver" output="screen">
+          <rosparam file="$(find arbotix_learning)/config/arbotix_control.yaml" command="load" />
+          <param name="sim" value="true" />
+     </node>
+<!-- rostopic pub -r 10 /cmd_vel geometry_msgs/Twist '{linear: {x: 0.2, y: 0, z: 0}, angular: {x: 0, y: 0, z: 0.5}}' -->
+</launch>

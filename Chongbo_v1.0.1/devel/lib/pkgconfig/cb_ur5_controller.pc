@@ -1,0 +1,8 @@
+prefix=/home/jobs/catkin_ws/devel
+
+Name: cb_ur5_controller
+Description: Description of cb_ur5_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

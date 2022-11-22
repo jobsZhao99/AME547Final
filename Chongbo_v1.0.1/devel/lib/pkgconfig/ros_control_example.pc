@@ -1,0 +1,8 @@
+prefix=/home/jobs/catkin_ws/devel
+
+Name: ros_control_example
+Description: Description of ros_control_example
+Version: 0.0.0
+Cflags: -I/home/jobs/catkin_ws/src/ros_control_example/include
+Libs: -L${prefix}/lib 
+Requires: controller_manager roscpp rospy std_msgs std_srvs

@@ -1,2 +1,0 @@
-bhand_description:my_controller:ur_description
--DCATKIN_DEVEL_PREFIX=/home/jobs/AME547Final/WellControl_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jobs/AME547Final/WellControl_ws/install -G Unix Makefiles

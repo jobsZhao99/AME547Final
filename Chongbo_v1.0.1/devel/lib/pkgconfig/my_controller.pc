@@ -1,0 +1,8 @@
+prefix=/home/jobs/catkin_ws/devel
+
+Name: my_controller
+Description: Description of my_controller
+Version: 0.0.0
+Cflags: -I/home/jobs/catkin_ws/src/my_controller/src -I/usr/include
+Libs: -L${prefix}/lib -lmy_controller /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+Requires: pluginlib roscpp
