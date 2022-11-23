@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find bhand_description)/urdf/bh_alone.urdf.xacro'" />
+  <!-- <param name="robot_description" textfile="$(find bhand_description)/urdf/bh_alone.urdf"/> -->
+
+  <!-- Show in Gazebo   -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+  <!-- 在 gazebo 中显示机器人模型 -->
+  <node pkg="gazebo_ros" type="spawn_model" name="model" args="-urdf -model CB_bhand_Test -param robot_description"  />
+
+
+  <!-- send fake joint values -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="TRUE"/>
+  </node>
+
+  <!-- Combine joint values -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+</launch>
+
