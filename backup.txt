@@ -6,3 +6,6 @@ https://blog.csdn.net/weixin_43956732/article/details/106503609#:~:text=URDF(Uni
 
 customed contorller
 https://subscription.packtpub.com/book/hardware-and-creative/9781788478953/8/ch08lvl1sec72/writing-a-basic-joint-controller-in-ros
+
+
+https://blog.csdn.net/weixin_43956732/article/details/106503609#:~:text=URDF(Unified%20Robot%20Description%20Format,%E4%B8%AA%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E6%8F%8F%E8%BF%B0%E6%96%87%E4%BB%B6.
