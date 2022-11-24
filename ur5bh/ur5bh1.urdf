@@ -334,7 +334,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/palm_282.dae"/>
+        <mesh filename="package://bhand_description/meshes/palm_282.stl"/>
       </geometry>
       <material name="Grey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -343,7 +343,7 @@
     <collision>
       <origin rpy="0 0 0 " xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/palm_282.dae"/>
+        <mesh filename="package://bhand_description/meshes/palm_282.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -366,7 +366,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle.stl"/>
       </geometry>
       <material name="Green">
         <color rgba="0.0 1.0 0.0 1.0"/>
@@ -375,7 +375,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -397,7 +397,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <material name="Blue">
         <color rgba="0.0 0.0 1.0 1.0"/>
@@ -406,7 +406,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -429,14 +429,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -460,14 +460,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle.stl"/>
       </geometry>
       <material name="Green"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle.stl"/>
       </geometry>
     </collision>
   </link>
@@ -489,14 +489,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -519,14 +519,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -549,7 +549,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.04 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle_fixed.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle_fixed.stl"/>
       </geometry>
       <material name="Black">
         <color rgba="1.0 1.0 1.0 1.0"/>
@@ -558,7 +558,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="-0.04 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/knuckle_fixed.dae"/>
+        <mesh filename="package://bhand_description/meshes/knuckle_fixed.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -577,14 +577,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
@@ -606,14 +606,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <material name="Blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://bhand_description/meshes/finger_tip.dae"/>
+        <mesh filename="package://bhand_description/meshes/finger_tip.stl"/>
       </geometry>
       <contact_coefficients kd="1.0" kp="1000.0" mu="0"/>
     </collision>
