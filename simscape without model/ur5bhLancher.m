@@ -10,6 +10,6 @@ HandCommander=[0 1 0 1];
 absacles1=[0 0.8173 0.66];
 
 
-% sim('ur5bh.slx');
-function TargetPoint()
-end
+% % sim('ur5bh.slx');
+% function TargetPoint()
+% end

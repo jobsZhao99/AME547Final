@@ -5,6 +5,6 @@ Icon=/home/jobs/MATLAB/matlab2021b/matlab_icon.png
 Terminal=true
 Name=Matlab 2021b
 Comment=Start MATLAB - The Language of Technical Computing
-Exec=/home/jobs/MATLAB/matlab2021b/bin/matlab
+Exec=/home/shawn/MATLAB/2021b/bin/matlab
 Categories=Development;
 
