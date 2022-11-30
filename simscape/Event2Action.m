@@ -1,4 +1,4 @@
-function [Act_Hand,Act_Planner,Act_XYZ,Act_YPR,Act_Time]=Event2Action(EventTable)
+function [Act_Hand,Act_Planner,Act_XYZ,Act_YPR,Act_Time,Act_Lift]=Event2Action(EventTable)
 %Event2Action Transfer Event Table to Single Actions Set
 %   Event Table Formmat:(cell not array)
 %       |Hand    |   Planner |   XYZ      |   ypr    |   t(sec) |    IV-f
@@ -10,7 +10,7 @@ function [Act_Hand,Act_Planner,Act_XYZ,Act_YPR,Act_Time]=Event2Action(EventTable
 %       During(sec)
         
 
-disp("      Hand          Planner               XYZ               ypr        During(sec)");
+disp("      Hand          Planner               XYZ               ypr        During(sec) Lift");
 disp(EventTable);
 % define table
 HandCom_Col=1;
@@ -18,6 +18,7 @@ Planner_Col=2;
 XYZ_Col=3;
 YPR_Col=4;
 TimeSeg_Col=5;
+Lift_Col=6;
 
 % initialize
 Phase_Num=size(EventTable,1);
@@ -26,7 +27,7 @@ Act_Planner=zeros(Phase_Num,1);
 Act_XYZ=zeros(Phase_Num,3);
 Act_YPR=zeros(Phase_Num,3);
 Act_Time=zeros(Phase_Num,1);
-
+Act_Lift=zeros(Phase_Num,1);
 for i=1:Phase_Num
     % HandCommander
     if strcmp(EventTable(i,HandCom_Col),'grab')
@@ -44,6 +45,7 @@ for i=1:Phase_Num
     end
     Act_XYZ(i,:)=cell2mat(EventTable(i,XYZ_Col));
     Act_YPR(i,:)=cell2mat(EventTable(i,YPR_Col));
+    Act_Lift(i)=cell2mat(EventTable(i,Lift_Col));
     % Time Segment
     if i==1
         Act_Time(1)=EventTable{1,TimeSeg_Col};

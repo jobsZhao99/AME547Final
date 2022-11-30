@@ -180,7 +180,7 @@
     </visual>
   </link>
   <link name="EndEffort"/>
-    <joint name="EE_joint" type="fixed">
+  <joint name="EE_joint" type="fixed">
     <origin xyz="0 -0.06 0.02"/>
     <parent link="bh_base_link"/>
     <child link="EndEffort"/>
