@@ -40,6 +40,8 @@ for i=1:Phase_Num
         Act_Planner(i)=1;
     elseif strcmp(EventTable(i,Planner_Col),'IK-Linear')
         Act_Planner(i)=2;
+    elseif strcmp(EventTable(i,Planner_Col),'Linear')
+        Act_Planner(i)=3;
     else
         Act_Planner(i)=0;
     end
